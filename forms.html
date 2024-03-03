@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#">
+        <label for="username"> User Name</label>
+        <input type="text" name="username" id="username" required>
+        <br>
+        <label for="mail">Email</label>
+        <input type="email"name="email" id="mail" required><br>
+        <label for="pass"> Password</label>
+        <input type="password" name="password" id="pass"> <br>
+        <label for="phone"> Phone Number</label>
+        <input type="tel" name="phone" id="phone" > <br> 
+        <label for="text">Subject</label>
+        <textarea name="" id="" cols="20" rows="3"></textarea><br>
+        <input type="submit">
+    </form>
+    <br>
+    <hr><br>
+    <form action="#">
+        <label for="user"> User name</label>
+        <input type="text" name="username" id="user" minlength="5" maxlength="20" required autofocus><br>
+        <label for="email"> Email</label>
+        <input type="email" name="email" id="email"><br>
+        <input type="text" value="We love engineer Abdelrahman" hidden >
+        <label for="list">Choose Book</label>
+        <select name="books" id="list">
+            <optgroup label="PHP">
+                <option value="v5.0">v5.0</option>
+                <option value="v5.0">v7.0</option>
+                <option value="v5.0">v8.0</option>
+            </optgroup>
+            <optgroup label="Python">
+                <option value="v2.0">v2.0</option>
+                <option value="v3.0">v3.0</option>
+                <option value="v3.9">v3.9</option>
+            </optgroup>
+        </select><br> <br>
+        <textarea name="subjecr" id="" cols="30" rows="10" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+        <br>
+        <input type="submit" value="save">
+        <input type="reset">
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form action="#" target="_blank">
+        <label for="search">Search</label> <br><br>
+        <input type="search" placeholder="Enter A Search Word">
+        <br><br>
+        <label for="upload"> Upload</label><br><br>
+        <input type="file"> <br><br>
+        <label for="url"> Url</label><br><br>
+        <input type="url" required> <br><br>
+        <label for="date"> Date</label>
+        <input type="date" id="date" value="1982-10-25"><br>
+        <label for="month"> Month</label>
+        <input type="month" id="month" value="1982-10"><br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="save">
+
+    </form>
+
+</body>
+</html>
